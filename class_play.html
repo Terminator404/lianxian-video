@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>病理资讯-连线医疗</title>
+    <meta name="renderer" content="webkit">
+    <script>(function () {
+        function a() {
+            return /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent) ? !0 : /(Android)/i.test(navigator.userAgent) ? !0 : !1
+        }
+
+        var d = document.getElementsByTagName("html")[0];
+        var e;
+        if (a()) {
+            window.isMobile = 1;
+            e = "MC"
+        } else {
+            window.isMobile = 0;
+            e = "PC"
+        }
+        d.className = d.className ? d.className + " " + e : e;
+        var b = d.className;
+
+        function c(f) {
+            var h = "";
+            var g = document.documentElement.clientWidth;
+            1600 > g && (h += " lt1600");
+            1400 > g && (h += " lt1400");
+            1200 > g && (h += " lt1200");
+            1000 > g && (h += " lt1000");
+            960 > g && (h += " lt960");
+            640 > g && (h += " lt640");
+            500 > g && (h += " lt500");
+            400 > g && (h += " lt400");
+            1600 < g && (h += " gt1600");
+            1400 < g && (h += " gt1400");
+            1200 < g && (h += " gt1200");
+            1000 < g && (h += " gt1000");
+            960 < g && (h += " gt960");
+            640 < g && (h += " gt640");
+            500 < g && (h += " gt500");
+            400 < g && (h += " gt400");
+            f.className = b + h
+        }
+
+        c(d);
+        window.onresize = function (f) {
+            c(d)
+        }
+    })();</script>
+    <!--让IE9以下浏览器支持html5标签 -->
+    <!--[if lt IE 9]>
+    <script> (function () {
+        if (!/*@cc_on!@*/0)return;
+        var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(','), i = e.length;
+        while (i--) {
+            document.createElement(e[i])
+        }
+    })() </script>
+    <![endif]-->
+    <link href="http://cdn.bootcss.com/Swiper/2.7.6/idangerous.swiper.min.css" rel="stylesheet">
+    <link rel="stylesheet" href="css/base.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/list.css">
+    <script src="http://cdn.bootcss.com/jquery/1.12.1/jquery.js"></script>
+    <script src="http://cdn.bootcss.com/Swiper/2.7.6/idangerous.swiper.min.js"></script>
+    <script type="text/javascript">
+        $(function(){
+            $('#box2').swiper({
+                loop: true,paginationClickable: true,
+                pagination: '#box2 .mj-pagination'
+                //其他设置
+            });
+        })
+    </script>
+</head>
+<body>
+
+<div class="yj-class-top">
+    <p class="yj-class-condition start">即将开始</p>
+    <p class="yj-class-name">泌尿与男性生殖系统</p>
+    <a href="javascript:history.go(-1);">返回</a>
+</div>
+
+<div class="yj-class-info">
+        <div class="yj-class-tea-img" style="background-image: url(img/doc.jpg)"></div>
+        <div class="yj-yp-class-info">
+            <a href="#"><p class="yj-yp-tea-name" style="color: #1b9adc">廖松林</p></a>
+            <p class="yj-yp-tea-from">北京大学医学部病理系/北医三院病理科</p>
+            <p class="yj-yp-tea-position">教授</p>
+            <i class="f-icon f-f16 i-b f-ml20" style="color: #999">&#xe619;</i>
+            <p class="yj-class-name-time ">2016-09-05 19:00</p>
+        </div>
+    <a href="#"><p class="yj-class-zhibo">同步直播</p></a>
+</div>
+
+<div class="yj-class-view">
+<div class="g-w55 f-fl">
+    <div class="f-m10">
+        <div class="yj-class-left yj-class-bc"></div>
+    </div>
+</div>
+    <div class="g-w45 f-fl">
+        <div class="f-m10">
+        <div class="yj-class-right yj-class-bc">
+            <div class="swiper-container mj-slideBox" id="box2">
+                <div class="swiper-wrapper">
+                    <div class="swiper-slide">
+                        <a href="#" target="_blank" class="mj-slideBox-img" style="background:url(http://www.superslide2.com/demo/images/pic1.jpg) center center no-repeat;">
+                            <p class="mj-slideBox-p">宽度自适应</p></a>
+                    </div>
+                    <div class="swiper-slide"> Slide2</div>
+                    <div class="swiper-slide"> Slide3</div>
+                </div>
+                <div class="mj-pagination"></div>
+            </div>
+        </div>
+        </div>
+    </div>
+</div>
+</body>
+</html>

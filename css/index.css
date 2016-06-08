@@ -1,0 +1,913 @@
+
+
+/***********************************
+****************News 病理资讯**************
+************************************/
+
+.news {
+    margin: 20px auto 0 auto;
+}
+.news .news-left {
+    width: 70%;
+}
+.news .news-left .news-header {
+    border-bottom: 2px solid #307fe2;
+}
+.title{
+    font-weight: normal;
+    color: #444;}
+.news .news-left .title {
+    margin-bottom: 10px;
+    display: inline-block;
+}
+.news .news-left .description {
+    color: #999999;
+    font-size: 12px;
+    margin-left: 10px;
+}
+.news .news-left .content {
+    margin-top: 15px;
+}
+.news .news-left .content .industry-news {
+    width: 400px;
+    padding-right: 9px;
+}
+.news .news-left .content .policy-news {
+    width: 400px;
+    padding-left: 20px;
+}
+.news .news-left .content .industry-news {
+    border-right: 1px dotted #aaaaaa;
+}
+.news .news-left .content .list .headline .headline-img {
+    width: 94px;
+}
+
+.news .news-left .content .list .headline .headline-content {
+    width: 296px;
+    margin-left: 10px;
+}
+.news .news-left .content .list .headline .headline-content .headline-title {
+    color: #307fe2;
+    line-height: 1.5;
+}
+.f-l a:hover,.content .list ul li a:hover,.headline-title:hover{
+    text-decoration: underline;
+}
+
+.news .news-left .content .list .headline .headline-content .headline-subtitle {
+    color: #939393;
+    font-size: 12px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.news .news-left .content .list ul {
+    padding-left: 12px;
+}
+.news .news-left .content .list ul li {
+    color: #aaaaaa;
+    font-size: 12px;
+}
+.news .news-left .content .list ul li a {
+    color: #4f4f4f;
+    line-height: 30px;
+    font-size: 14px;
+}
+/*会议活动*/
+.news .news-right {
+    width: 30%;
+}
+.news .meeting-activity .meeting-activity-wrapper {
+    border: 1px solid #ddd;
+    padding: 10px 10px;
+    background-color: #f8f8f8;
+    margin-left: 10px;
+}
+.news .meeting-activity .title a {
+    color: #aaaaaa;
+    font-size: 12px;
+}
+.news .meeting-activity .title a:hover{
+    text-decoration: underline;}
+.news .meeting-activity .act-list {
+    padding-left: 0;
+    list-style: none;
+    font-size: 12px;
+    margin-top: 20px;
+}
+.news .meeting-activity .act-list li {
+    margin-top: 10px;
+}
+.news .meeting-activity .act-list .label {
+    display: inline-block;
+    background-color: #21a88d;
+    padding: 5px 15px;
+    color: #ffffff;
+}
+.news .meeting-activity .act-list .time {
+    background-color: #5695d5;
+}
+.news .meeting-activity .act-list .content {
+    margin-top: 10px;
+}
+.news .meeting-activity .act-list .content.border-b {
+    padding-bottom: 10px;
+    border-bottom: 1px solid #e1e1e1;
+}
+.news .meeting-activity .act-list a {
+    color: #666666;
+    line-height: 22px;
+    font-size: 14px;
+}
+.news .meeting-activity .act-list a:hover{
+    text-decoration: underline;}
+/****************/
+
+/**********************************************************/
+
+/***********************************
+****************Diagnose 病理诊断**************
+************************************/
+.diagnose {
+    margin: 20px auto 0  auto;
+}
+.diagnose .diagnose-header {
+    border-bottom: 2px solid #307fe2;
+}
+.diagnose .diagnose-header .diagnose-header-left .title {
+    margin-bottom: 10px;
+    margin-top: 0;
+    /*display: inline;*/
+}
+.diagnose .diagnose-header .diagnose-header-left .description {
+    margin-bottom: 10px;
+    margin-top: 0;
+    margin-left: 10px;
+}
+.diagnose .diagnose-header .diagnose-header-right {
+    line-height: 37px;
+    font-size: 14px;
+    color: #5695d5;
+}
+.diagnose .diagnose-header .diagnose-header-right a {
+    color: #5695d5;
+    margin-left: 20px;
+}
+.diagnose .diagnose-header .diagnose-header-right a:hover{
+    text-decoration: underline;}
+.diagnose .diagnose-header .diagnose-header-left .description {
+    color: #999999;
+    font-size: 12px;
+}
+
+.diagnose .content {
+    margin-top: 15px;
+}
+/*病理阅片会*/
+.diagnose .content .read-activity {
+    width: 400px;
+    padding-right: 9px;
+    border-right: 1px dotted #aaaaaa;
+}
+.diagnose .content .read-activity .title {
+    margin-bottom: 10px;
+}
+.diagnose .content .read-activity .headline .headline-img {
+    width: 120px;
+    height: 120px;
+}
+.diagnose .content .read-activity .headline .headline-content {
+    width: 260px;
+    margin-left: 20px;
+    line-height: 1.5;
+}
+.diagnose .content .read-activity .headline .headline-content .name {
+    color: #4a4a4a;
+    font-size: 16px;
+}
+.diagnose .content .read-activity .headline .headline-content .speaker {
+    font-size: 14px;
+    color: #9a9a9a;
+    margin-top: 6px;
+}
+.diagnose .content .read-activity .headline .headline-content .speaker .speaker-name {
+    color: #5695d5;
+}
+.diagnose .content .read-activity .headline .headline-content .others {
+
+}
+.diagnose .content .read-activity .headline .headline-content .others span, .diagnose .content .read-activity .headline .headline-content .others img {
+    vertical-align: middle;
+}
+.diagnose .content .read-activity .headline .headline-content .others img {
+    width: 15px;
+}
+.diagnose .content .read-activity .headline .headline-content .others span {
+    color: #4a4a4a;
+    font-size: 12px;
+}
+.diagnose .content .read-activity .headline .headline-content .actions {
+    margin-top: 10px;
+}
+.diagnose .content .read-activity .headline .headline-content .actions a {
+    background-color: #5695d5;
+    padding: 8px 10px;
+    color: #ffffff;
+    font-size: 14px;
+}
+.diagnose .content .read-activity .headline .headline-content .actions .read-online {
+    background-color: #21a88d;
+}
+
+.diagnose .content .read-activity .comments {
+    list-style: none;
+    padding: 0;
+}
+.diagnose .content .read-activity .comments li {
+    margin-top: 10px;
+}
+.diagnose .content .read-activity .comments .avatar {
+    width: 50px;
+}
+.diagnose .content .read-activity .comments .comment-info {
+    width: 340px;
+    margin-left: 10px;
+}
+.diagnose .content .read-activity .comments .comment-info .info-header {
+    line-height: 16px;
+}
+.diagnose .content .read-activity .comments .comment-info .info-header .name {
+    color: #4a4a4a;
+    font-size: 14px;
+}
+.diagnose .content .read-activity .comments .comment-info .info-header .time {
+    font-size: 12px;
+    color: #9a9a9a;
+}
+.diagnose .content .read-activity .comments .comment-info .comment-content {
+    margin-top: 6px;
+    font-size: 14px;
+}
+.diagnose .content .read-activity .more-comment a {
+    color: #5695d5;
+    font-size: 14px;
+}
+/***********/
+
+/*数字病例库*/
+.diagnose .content .case-lib {
+    width: 760px;
+    margin-left: 20px;
+}
+.diagnose .content .case-lib .types {
+    width: 324px;
+    padding: 0;
+}
+.diagnose .content .case-lib .item-type {
+    margin-bottom: 10px;
+}
+.diagnose .content .case-lib .item-type a {
+    color: #4f4f4f;
+    font-size: 14px;
+}
+.diagnose .content .case-lib .item-type a:before {
+    content: '·';
+    color: #333333;
+}
+.diagnose .content .case-lib .cases {
+    width: 436px;
+    padding: 0;
+    margin: 0;
+    list-style: none;
+}
+.diagnose .content .case-lib .cases .item-case {
+    margin-bottom: 15px;
+    margin-right: 15px;
+}
+.diagnose .content .case-lib .cases .item-case .item-case-wrap {
+    position: relative;
+}
+.diagnose .content .case-lib .cases .item-case img {
+    display: block;
+}
+.diagnose .content .case-lib .cases .item-case .name {
+    position: absolute;
+    bottom: 0;
+    background-color: rgba(111, 105, 110, .8);
+    width: 100px;
+    padding: 5px 15px;
+    font-size: 14px;
+    color: #ffffff;
+}
+@media \0screen\,screen\9 {
+    /* 只支持IE6、7、8 */
+    .diagnose .content .case-lib .cases .item-case .name {
+        background-color: #6f696e;
+        filter:Alpha(opacity=80);
+        position:static; /* IE6、7、8只能设置position:static(默认属性) ，否则会导致子元素继承Alpha值 */
+        *zoom:1; /* 激活IE6、7的haslayout属性，让它读懂Alpha */
+    }
+}
+/***********/
+
+/**********************************************************/
+
+/***********************************
+****************Circle 病理圈**************
+************************************/
+.circle {
+    margin: 0 auto;
+}
+.circle .circle-header {
+    border-bottom: 2px solid #307fe2;
+}
+.circle .circle-header .circle-header-left .title {
+    margin-bottom: 10px;
+    margin-top: 0;
+}
+.circle .circle-header .circle-header-left .description {
+    margin-left: 10px;
+}
+.circle .circle-header .circle-header-right {
+    line-height: 37px;
+    font-size: 14px;
+}
+.circle .circle-header .circle-header-right a {
+    color: #5695d5;
+    margin-left: 20px;
+}
+.circle .circle-header .circle-header-left .description {
+    color: #999999;
+    font-size: 12px;
+}
+.circle .circle-body {
+    margin-top: 15px;
+}
+
+/*名医推荐*/
+.circle .circle-body .doctor-recommend {
+    width: 400px;
+    height: 310px;
+    padding-right: 9px;
+    border-right: 1px dotted #aaaaaa;
+}
+.circle .circle-body .doctor-recommend .title a {
+    color: #c3c3c3;
+    font-size: 14px;
+}
+.circle .circle-body .doctor-recommend .doctor-list {
+    padding-left: 0;
+    list-style: none;
+    margin-top: 20px;
+}
+.circle .circle-body .doctor-recommend .doctor-list .item-doctor {
+    margin-top: 10px;
+}
+.circle .circle-body .doctor-recommend .doctor-list .item-doctor .item-doctor-avatar {
+    width: 107px;
+    padding-right: 15px;
+}
+.circle .circle-body .doctor-recommend .doctor-list .item-doctor .item-doctor-info .name {
+    color: #5695d5;
+    font-size: 16px;
+}
+.circle .circle-body .doctor-recommend .doctor-list .item-doctor .item-doctor-info .description {
+    color: #868686;
+    font-size: 14px;
+    margin-top: 10px;
+    line-height: 1.5;
+}
+/***********/
+
+/*最新博文*/
+.circle .circle-body .new-article {
+    width: 400px;
+    height: 310px;
+    padding-right: 19px;
+    border-right: 1px dotted #aaaaaa;
+    padding-left: 20px;
+}
+.circle .circle-body .new-article .title a {
+    color: #c3c3c3;
+    font-size: 14px;
+}
+.circle .circle-body .new-article .headline {
+    margin-top: 20px;
+}
+.circle .circle-body .new-article .headline .headline-img {
+    width: 101px;
+    height: 101px;
+    padding-right: 15px;
+}
+.circle .circle-body .new-article .headline .headline-info .title {
+    color: #323232;
+    font-size: 16px;
+}
+.circle .circle-body .new-article .headline .headline-info .subtitle {
+    color: #868686;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.circle .circle-body .new-article .new-article-list {
+    margin-top: 20px;
+    color: #ababab;
+    font-size: 12px;
+    padding-left: 15px;
+}
+.circle .circle-body .new-article .new-article-list .item-art {
+    font-size: 14px;
+    margin-top: 10px;
+}
+.circle .circle-body .new-article .new-article-list .item-art a {
+    color: #4f4f4f;
+}
+/***********/
+
+/*病例讨论与最新会员*/
+.circle .circle-body .discuss-and-member {
+    width: 330px;
+    height: 310px;
+    padding-left: 15px;
+    padding-right: 5px;
+}
+.case-discuss .title a {
+    color: #c3c3c3;
+    font-size: 14px;
+}
+.case-discuss .case-discuss-list {
+    margin-top: 20px;
+    list-style: none;
+    padding: 0;
+}
+.case-discuss .case-discuss-list .item-discuss {
+    margin-bottom: 20px;
+}
+.case-discuss .case-discuss-list .item-discuss .avatar {
+    width: 35px;
+    height: 35px;
+    border-radius: 50%;
+}
+.case-discuss .case-discuss-list .item-discuss .item-discuss-info {
+    width: 290px;
+    padding-left: 5px;
+    font-size: 12px;
+    line-height: 1.5;
+}
+.case-discuss .case-discuss-list .item-discuss .item-discuss-info .info-header .name {
+    color: #5695d5;
+}
+.case-discuss .case-discuss-list .item-discuss .item-discuss-info .info-body a {
+    color: #5695d5;
+}
+
+.new-member .new-member-list {
+    margin-top: 10px;
+    list-style: none;
+    padding: 0;
+}
+.new-member .new-member-list.item-member {
+    border: 1px solid #eeeeee;
+}
+.new-member .new-member-list .item-member img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    margin-right: 15px;
+    border: 1px solid #eeeeee;
+    padding: 5px;
+}
+/***********/
+
+/**********************************************************/
+
+
+/***********************************
+****************Learning Materials 学习资料**************
+************************************/
+.learning-materials {
+    margin: 0 auto 0 auto;
+}
+.learning-materials-header .title {
+    margin-bottom: 10px;
+}
+.learning-materials-header .description {
+    color: #999999;
+    font-size: 12px;
+}
+.learning-materials .learning-materials-wrap {
+    border: 1px solid #ddd;
+    padding: 20px 0;
+    border-top: 2px solid #307fe2
+}
+.learning-materials .title span {
+    color: #4a4a4a;
+    font-size: 16px;
+}
+.learning-materials .title a {
+    color: #c3c3c3;
+    font-size: 14px;
+}
+/*病理视频*/
+.learning-materials .video {
+    width: 390px;
+    height: 308px;
+    padding-right: 19px;
+    border-right: 1px dotted #aaaaaa;
+    padding-left: 20px;
+}
+.learning-materials .video .headline {
+    margin-top: 20px;
+}
+.learning-materials .video .headline .headline-img {
+    width: 101px;
+}
+.learning-materials .video .headline .headline-info {
+    width: 269px;
+    padding-left: 20px;
+}
+.learning-materials .video .headline .headline-info .headline-title {
+    color: #307fe2;
+    font-size: 16px;
+}
+.learning-materials .video .headline .headline-info .headline-subtitle {
+    color: #868686;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.learning-materials .video .video-list {
+    padding-left: 12px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #ababab;
+}
+.learning-materials .video .video-list li {
+    margin-top: 10px;
+}
+.learning-materials .video .video-list a {
+    font-size: 14px;
+    color: #4f4f4f;
+}
+/***********/
+
+/*名医名篇*/
+.learning-materials .famous {
+    width: 390px;
+    height: 308px;
+    padding-right: 19px;
+    border-right: 1px dotted #aaaaaa;
+    padding-left: 20px;
+}
+.learning-materials .famous .headline {
+    margin-top: 20px;
+}
+.learning-materials .famous .headline .headline-img {
+    width: 101px;
+}
+.learning-materials .famous .headline .headline-info {
+    width: 269px;
+    padding-left: 20px;
+}
+.learning-materials .famous .headline .headline-info .headline-title {
+    color: #307fe2;
+    font-size: 16px;
+}
+.learning-materials .famous .headline .headline-info .headline-subtitle {
+    color: #868686;
+    font-size: 14px;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.learning-materials .famous .famous-list {
+    padding-left: 12px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #ababab;
+}
+.learning-materials .famous .famous-list li {
+    margin-top: 10px;
+}
+.learning-materials .famous .famous-list a {
+    font-size: 14px;
+    color: #4f4f4f;
+}
+/***********/
+
+/*专业书籍*/
+.learning-materials .book {
+    width: 308px;
+    height: 308px;
+    padding-left: 20px;
+    padding-right: 10px;
+}
+.learning-materials .book .headline {
+    margin-top: 20px;
+}
+.learning-materials .book .headline .headline-img {
+    width: 86px;
+}
+.learning-materials .book .headline .headline-info {
+    width: 212px;
+    padding-left: 10px;
+    font-size: 12px;
+}
+.learning-materials .book .headline .headline-info .headline-title {
+    color: #006699;
+    margin-top: 10px;
+}
+.learning-materials .book .headline .headline-info .headline-subtitle {
+    color: #868686;
+    line-height: 1.5;
+    margin-top: 10px;
+}
+.learning-materials .book .headline .headline-info .headline-subtitle a {
+    color: #5695d5;
+}
+.learning-materials .book .book-list {
+    padding-left: 12px;
+    margin-top: 20px;
+    font-size: 12px;
+    color: #ababab;
+}
+.learning-materials .book .book-list li {
+    margin-top: 10px;
+}
+.learning-materials .book .book-list a {
+    font-size: 14px;
+    color: #4f4f4f;
+}
+/***********/
+
+
+/**********************************************************/
+
+/***********************************
+****************partner 合作伙伴 **************
+************************************/
+.partner {
+    margin: 0 auto;
+}
+.partner-header .title {
+    margin-bottom: 0;
+}
+.partner-header .description {
+    color: #999999;
+    font-size: 12px;
+}
+.partner .partner-list {
+    list-style: none;
+    text-align: center;
+    background-color: #fafafa;
+    padding: 10px;
+    margin-top: 10px;
+}
+.partner .partner-list li {
+    margin: 3px;
+    margin-left: 2px;
+    margin-right: 2px;
+    border: 1px solid #eeeeee;
+}
+.partner .partner-list li img {
+    width: 155px;
+    border: 0;
+}
+
+/**********************************************************/
+/***********************************
+****************silder**************
+************************************/
+.slide-bg {
+    background-color: #6699cc;
+    width: 100%;
+    height:355px;
+}
+.slide{
+    margin: 0 auto;
+    height:355px;
+    overflow:hidden;
+    position:relative;
+}
+.slide ul{
+    position:absolute;
+    list-style: none;
+    padding-left: 0;
+    margin: 0;
+    width: 100%;
+}
+.slide ul li{
+    /*float:left;*/
+    overflow:hidden;
+}
+.slide .item-slide {
+    height: 355px;
+    display: block;
+    width: 100%;
+    /*width: 1306px;*/
+}
+.slide .button{
+    position:absolute;
+    bottom:5px;
+    left: 50%;
+    margin-left: -35px;
+    z-index: 1;
+}
+.slide .button div {
+    display: inline-block;
+    *display: inline;
+    *zoom: 1;
+    background-color:#ffffff;
+    margin-left:3px;
+    width: 15px;
+    height: 15px;
+    border-radius: 50%;
+}
+.slide .button div.on{background-color:#ff9933;color:#000;}
+
+/**********************************************************/
+
+
+/*公共三栏目*/
+.yj-list-data-name{
+    display: inline-block;
+    margin-bottom: 10px;
+}
+
+.yj-list-data-title{
+    display: inline-block;
+    font-weight: normal;
+    margin-bottom: 10px;
+
+}
+
+.yj-list-data-stitle{
+    display: inline;
+    color: #bbbbbb;
+    font-size: 12px;
+}
+
+.yj-list-data-down{
+    padding: 10px;
+    border-top:2px  solid #4285f4 ;
+    border-right: 1px solid #bbbbbb;
+    border-bottom: 1px solid #bbbbbb;
+    border-left: 1px solid #bbbbbb;
+}
+.MC .yj-list-data-down{padding: 0;border: none;  border-top:2px  solid #4285f4 ;}
+
+.yj-list-data-column{
+    position: relative;
+    padding: 10px;
+}
+
+.yj-f-br{
+    border-right: 1px #bbbbbb dotted;
+}
+
+
+
+
+.MC .yj-f-br{
+    border-right: 0;   border-bottom: 1px #bbbbbb dotted;
+}
+
+
+.yj-list-data-class{
+    display: inline;
+}
+
+.yj-list-data-more{
+    padding-right: 10px;
+}
+
+.yj-list-data-more a{
+    font-size: 14px;
+    color: #bbbbbb;
+    text-decoration: none;
+}
+
+.yj-list-data-more a:hover{
+    text-decoration: underline;
+}
+
+
+.yj-list-data-pic{
+    padding: 10px;
+    margin-top: 5px;
+}
+
+.yj-list-data-pic-img{
+    width: 40%;
+    height: 110px;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.yj-list-data-name {
+    padding: 0 5px;
+    padding-left: 10px;
+    text-overflow: ellipsis;max-height: 42px;
+    display: -webkit-box;overflow: hidden;
+    -webkit-line-clamp: 2; /*这里修改为要显示的行数*/
+    -webkit-box-orient: vertical;
+}
+
+.yj-list-data-name a{
+    text-decoration: none;
+    font-size: 16px;
+    color: dodgerblue;
+}
+
+.yj-list-data-name a:hover{
+    text-decoration: underline;
+}
+
+.yj-list-data-brief{
+    color: #999;
+    font-size: 12px;padding-left: 10px;padding-top: 10px;
+    overflow : hidden;
+    text-overflow: ellipsis;
+    display: -webkit-box;
+    -webkit-line-clamp: 3; /*这里修改为要显示的行数*/
+    -webkit-box-orient: vertical;
+
+}
+
+.yj-list-data-txt{
+    height: 110px;
+    overflow: hidden;
+}
+
+.yj-list-data-item{
+    color: #ababab;
+    font-size: 12px;
+    margin: 0;padding: 0;
+    padding-left: 20px;
+    margin-top: 5px;
+
+}
+
+.yj-list-data-item a{
+    text-decoration: none;
+    color: #444444;
+    font-size:14px;
+    line-height: 30px;
+}
+
+.yj-list-data-item a:hover{
+    text-decoration: underline;
+}
+
+.MC .news-left{width:100%}
+.MC .news-right{width:100%}
+.MC .news .news-left .content .policy-news{width:100%}
+.MC .partner-list td{float:left}
+.MC .news{margin:0}
+.MC .news .news-left .content .industry-news{width:100%;padding-right:0;border-right:none;border-bottom:1px #bbb dotted}
+.MC .news .news-left .content .list .headline .headline-img{width:30%}
+.MC .news .news-left .content .list .headline .headline-content{width:65%}
+.MC .news .meeting-activity .meeting-activity-wrapper{margin:10px;padding:10px}
+.MC .news-box{margin:10px}
+.MC .search-wrapper .search .search-input input{width:100%}
+.MC .search-wrapper{margin:10px auto 0 auto}
+.MC .search-wrapper .search .hot-keyword{height:16px;overflow:hidden}
+.MC .news .news-left .content .list .headline .headline-content a{text-overflow:ellipsis;height:45px;display:-webkit-box;overflow:hidden;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.MC .news .news-left .content .list .headline .headline-content .headline-subtitle{text-overflow:ellipsis;height:52px;display:-webkit-box;overflow:hidden;-webkit-line-clamp:3;-webkit-box-orient:vertical}
+.news .news-right{margin-top:30px}
+.MC .news .news-right{margin:0}
+.MC .about{width:70%;margin:0;padding:0;text-align:left}
+.MC .relative{width:30%;margin:0;padding:0;text-align:center}
+.MC .logo{margin-top:10px}
+.MC .footer .statement{margin-top:10px}
+.MC .footer .about .about-link-list{width:auto}
+.MC .footer-links-wrap{margin:10px}
+.list-hot-info{padding-left:20px;padding-top:15px}
+.MC .list-title h1{margin-top:0}
+.MC .class-top{height:auto}
+.MC .list-hot{margin:0;padding:0}
+.MC .list-hot-info{padding:5px}
+.MC .list-hot-info-p{margin:0;padding:0;text-overflow:ellipsis;height:62px;display:-webkit-box;overflow:hidden;-webkit-line-clamp:3;-webkit-box-orient:vertical}
+.MC .class-list ul{padding:0}
+.MC .list-hot-info a{text-overflow:ellipsis;height:36px;display:-webkit-box;overflow:hidden;-webkit-line-clamp:2;-webkit-box-orient:vertical}
+.MC .search-wrapper .search .search-input button{padding:11px 12px}
+.MC .footer .code{margin-left:70px}
+.search-wrapper .search{float:right}
+.MC .search-wrapper .search{float:left}
+.mj-mcmenu{background-color:rgba(0,0,0,.6);position:fixed;width:100%;height:100%;z-index:99;left:100%;top:0;opacity:0;transition:opacity .3s linear}
+.mj-mcmenu.on{left:0;opacity:1}
+.mj-mcmenu-close{border:none;background:0 0;color:#fff;font-size:24px;font-family:arial;cursor:pointer;position:absolute;top:50%;left:15%;margin-top:-12px}
+.mj-mcmenu-box{white-space:nowrap;text-overflow:ellipsis;-o-text-overflow:ellipsis;overflow:hidden;transition:all .2s linear;overflow-x:hidden;background-color:#fff;width:0;position:absolute;top:0;right:0;height:100%;overflow-y:auto}
+.mj-mcmenu-bd .mj-mcmenu-ul{display:none}
+.mj-mcmenu.on .mj-mcmenu-box{width:60%}
+.mj-mcmenu-body{padding:10px}
+a.mj-mcmenu-title{display:block;text-decoration:none}
+.mj-mcmenu-title{border-bottom:2px solid #ddd;line-height:40px;font-weight:700;font-size:16px;color:#666}
+.mj-mcmenu-ul{padding:0;margin:0}
+.mj-mcmenu-ul a{padding-left:8px;display:block;line-height:40px;text-decoration:none;font-size:14px;color:#666;border-bottom:1px dotted #ccc}
+.mj-mcmenu-ul a:hover{background-color:#f1f1f1}
+.mj-mcmenu-show{position:absolute;top:20px;right:10px;line-height:45px;color:#999;font-size:20px;border:none;cursor:pointer;background:0 0}
+.MC .yj-nc-content{padding:0}
+.yj-nc-ml{margin-left:10px}
+.MC .yj-nc-ml{margin:0}
+.list-hot{height:auto}

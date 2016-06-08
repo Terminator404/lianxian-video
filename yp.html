@@ -1,0 +1,359 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>病理资讯-连线医疗</title>
+    <meta name="renderer" content="webkit">
+    <script>(function () {
+        function a() {
+            return /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent) ? !0 : /(Android)/i.test(navigator.userAgent) ? !0 : !1
+        }
+
+        var d = document.getElementsByTagName("html")[0];
+        var e;
+        if (a()) {
+            window.isMobile = 1;
+            e = "MC"
+        } else {
+            window.isMobile = 0;
+            e = "PC"
+        }
+        d.className = d.className ? d.className + " " + e : e;
+        var b = d.className;
+
+        function c(f) {
+            var h = "";
+            var g = document.documentElement.clientWidth;
+            1600 > g && (h += " lt1600");
+            1400 > g && (h += " lt1400");
+            1200 > g && (h += " lt1200");
+            1000 > g && (h += " lt1000");
+            960 > g && (h += " lt960");
+            640 > g && (h += " lt640");
+            500 > g && (h += " lt500");
+            400 > g && (h += " lt400");
+            1600 < g && (h += " gt1600");
+            1400 < g && (h += " gt1400");
+            1200 < g && (h += " gt1200");
+            1000 < g && (h += " gt1000");
+            960 < g && (h += " gt960");
+            640 < g && (h += " gt640");
+            500 < g && (h += " gt500");
+            400 < g && (h += " gt400");
+            f.className = b + h
+        }
+
+        c(d);
+        window.onresize = function (f) {
+            c(d)
+        }
+    })();</script>
+    <!--让IE9以下浏览器支持html5标签 -->
+    <!--[if lt IE 9]>
+    <script> (function () {
+        if (!/*@cc_on!@*/0)return;
+        var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(','), i = e.length;
+        while (i--) {
+            document.createElement(e[i])
+        }
+    })() </script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/base.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/list.css">
+</head>
+<body>
+
+<div class="mj-mcmenu pc-hide">
+    <button class="mj-mcmenu-close">X</button>
+    <div class="mj-mcmenu-box">
+        <div class="mj-mcmenu-body">
+            <div class="mj-mcmenu-bd">
+
+                <a href="http://www.lianxianyiliao.com/" class="mj-mcmenu-title">首页</a>
+
+                <div class="mj-mcmenu-title">病理资讯</div>
+                <ul class="mj-mcmenu-ul">
+                    <li><a href="http://www.lianxianyiliao.com/Online/Information/">病理资讯</a></li>
+                    <li><a href="http://www.lianxianyiliao.com/Online/Information/News/">行业新闻</a></li>
+                    <li><a href="http://www.lianxianyiliao.com/Online/Information/Policy/">政策动态</a></li>
+                    <li><a href="http://www.lianxianyiliao.com/Online/Information/Activities/">会议活动</a></li>
+                </ul>
+
+                <div class="mj-mcmenu-title">病理学习</div>
+                <ul class="mj-mcmenu-ul">
+                    <li><a href="http://www.lianxianyiliao.com/Online/Learn/">病理学习</a></li>
+                    <li><a href="http://www.lianxianyiliao.com/Online/Learn/Doctors/">病理名医</a></li>
+                    <li><a href="http://www.lianxianyiliao.com/Online/Learn/Famous/">名医名篇</a></li>
+                    <li><a href="http://www.lianxianyiliao.com/Online/Learn/Case/">病例分析</a></li>
+                    <li><a href="http://www.lianxianyiliao.com/Online/Learn/Molecular/">分子病理</a></li>
+                </ul>
+
+                <a href="http://www.lianxianyiliao.com/workstation/index" class="mj-mcmenu-title">连线云病理会诊平台</a>
+
+            </div>
+        </div>
+    </div>
+</div>
+
+<button class="mj-mcmenu-show pc-hide">三</button>
+<script src="http://cdn.bootcss.com/jquery/3.0.0-beta1/jquery.min.js"></script>
+<script>
+    $('.mj-mcmenu-show').add('.mj-mcmenu-close').click(function () {
+        $('.mj-mcmenu').toggleClass('on');
+    });
+    $('.mj-mcmenu-bd .mj-mcmenu-title').click(function () {
+        $(this).next().toggle('fast')
+    });
+</script>
+
+
+<!-- header-start -->
+<div class="header">
+    <!-- top-start -->
+    <div class="top mc-hide">
+        <div class="wrapper clearfix width-wrapper">
+            <div class="top-left f-l">
+                <a href="http://www.wiredmed.com/" target="_blank"><i class="f-icon">&#xe600;</i> 连线医疗</a>
+
+                <div class="phone i-b">
+                    <i class="f-icon">&#xe60c;</i>
+                    <span class="i-b">客服热线：020-29049396</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- top-end -->
+
+    <!-- search-start -->
+    <div class="search-wrapper clearfix width-wrapper">
+        <div class="logo f-l i-b g-mw80">
+            <a href="http://www.lianxianyiliao.com/">
+                <img src="http://www.lianxianyiliao.com/skin/blzx/img/logo.png">
+            </a>
+        </div>
+        <div class="search f-r i-b mc-hide">
+            <div class="search-input clearfix f-m5">
+                <form name="search_js2" method="post" action="http://www.lianxianyiliao.com/core/search/index.php">
+                    <input type="hidden" name="show" value="title">
+                    <input type="hidden" name="classid" value="9"/>
+
+                    <div class="input-wrap f-l g-mw80">
+                        <input type="text" name="keyboard" value="输入搜索关键字"
+                               onBlur="if(this.value=='') this.value='输入搜索关键字';"
+                               onFocus="if(this.value=='输入搜索关键字') this.value='';"/>
+                    </div>
+                    <button type="submit" class="f-l g-mw20">搜索</button>
+                </form>
+
+            </div>
+            <div class="hot-keyword">
+                <span class="title">热门搜索：</span><a href='http://www.lianxianyiliao.com/core/search/result/?searchid=1'
+                                                   target=_blank>国家卫生计生委</a>&nbsp;<a
+                    href='http://www.lianxianyiliao.com/core/search/result/?searchid=2' target=_blank>临床诊疗</a>&nbsp;<a
+                    href='http://www.lianxianyiliao.com/core/search/result/?searchid=3' target=_blank>质瘤诊断治疗</a>&nbsp;<a
+                    href='http://www.lianxianyiliao.com/core/search/result/?searchid=4' target=_blank>病理质量控制</a>&nbsp;<a
+                    href='http://www.lianxianyiliao.com/core/search/result/?searchid=5' target=_blank>陕西</a>&nbsp;<a
+                    href='http://www.lianxianyiliao.com/core/search/result/?searchid=6' target=_blank>胃癌</a>&nbsp;
+            </div>
+        </div>
+    </div>
+    <!-- search-end -->
+
+</div>
+<!-- header-end -->
+
+<!-- nav-start -->
+<div class="nav width-wrapper mc-hide">
+    <ul>
+        <li class="active">
+            <a href="http://www.lianxianyiliao.com/">首页</a>
+        </li>
+        <li>
+            <a href="http://www.lianxianyiliao.com/Online/Information/">病理资讯</a>
+        </li>
+        <li>
+            <a href="http://www.lianxianyiliao.com/Online/Learn/">病理学习</a>
+        </li>
+        <!-- <li>
+           <a href="#">阅片会</a>
+         </li>
+         <li>
+           <a href="#">模拟诊断</a>
+         </li>-->
+        <li>
+            <a href="http://cloud.wiredmed.com/workstation/index" target="_blank">连线云病理会诊平台</a>
+        </li>
+    </ul>
+</div>
+<!-- nav-end -->
+<!-- Hot-start -->
+<div class="class-top">
+    <div class="f-cb f-bc width-wrapper">
+        <div class="g-w30 g-mw g-fl">
+            <div class="list-title">
+                <h1>阅片课堂</h1>
+
+                <p><a href="http://www.lianxianyiliao.com/">首页</a>&nbsp;>&nbsp;<a
+                        href="http://www.lianxianyiliao.com/Online/">病理在线</a>&nbsp;>&nbsp;<a
+                        href="http://www.lianxianyiliao.com/Online/Information/">病理资讯</a></p>
+            </div>
+        </div>
+        <div class="g-w70 g-mw g-fl">
+            <div class="list-hot">
+                <div class="f-cb">
+                    <div class="yj-yp-list-hot">
+                        <div class="yj-yp-img" style="background-image: url(img/bl.jpg)"></div>
+                        <span class="tag f-bgc-warning f-pa f-tl">HOT</span>
+                        <div class="yj-yp-info">
+                            <div class="yj-yp-tea-img" style="background-image: url(img/doc.jpg)"></div>
+                            <div class="yj-yp-tea-info">
+                                <p class="yj-yp-tea-name" style="color: #ffe1b6">廖松林</p>
+                            <p class="yj-yp-tea-from">北京大学医学部病理系/北医三院病理科</p>
+                            <p class="yj-yp-tea-position">教授</p>
+                        </div>
+                            <a href="#" class="yj-yp-class-name">主题：泌尿与男性生殖系统</a>
+                            <div class="yj-yp-class-timebox">
+                                <p class="yj-yp-class-condition start">即将开始</p>
+                                <i class="f-icon f-f14" style="color: #fff">&#xe619;</i>
+                                <p class="yj-yp-class-name-time">2016-09-05 19:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Hot-end -->
+<!-- footer-start -->
+<!--列表内容-start-->
+<div class="yj-yp-container">
+    <div class="width-wrapper f-bc f-cb">
+        <div class="g-w80 f-fl">
+            <div class="mj-classList-title f-pr f-mt10">
+                <h2 class="mj-classList-title-h2">课堂列表<span class="mj-classList-title-p">LIST</span></h2>
+                <div class="f-pa f-tr mj-classList-title-right"><a href="javascript:history.go(-1);" class="f-btn">返回</a></div>
+            </div>
+            <ul>
+                <li class="yj-yp-list">
+                    <div class="yj-yp-img" style="background-image: url(img/bl.jpg)"></div>
+                    <div class="yj-yp-info">
+                        <div class="yj-yp-tea-img" style="background-image: url(img/doc.jpg)"></div>
+                        <div class="yj-yp-tea-info">
+                            <p class="yj-yp-tea-name">廖松林</p>
+                            <p class="yj-yp-tea-from">北京大学医学部病理系/北医三院病理科</p>
+                            <p class="yj-yp-tea-position">教授</p>
+                        </div>
+                        <a href="#" class="yj-yp-class-name">主题：泌尿与男性生殖系统</a>
+                        <div class="yj-yp-class-timebox">
+                            <p class="yj-yp-class-condition start">即将开始</p>
+                            <i class="f-icon f-f14" style="color: #999">&#xe619;</i>
+                            <p class="yj-yp-class-name-time">2016-09-05 19:00</p>
+                        </div>
+                    </div>
+                </li>
+                <li class="yj-yp-list">
+                    <div class="yj-yp-img" style="background-image: url(img/bl.jpg)"></div>
+                    <div class="yj-yp-info">
+                        <div class="yj-yp-tea-img" style="background-image: url(img/doc.jpg)"></div>
+                        <div class="yj-yp-tea-info">
+                            <a href="#"><p class="yj-yp-tea-name">廖松林</p></a>
+                            <p class="yj-yp-tea-from">北京大学医学部病理系/北医三院病理科</p>
+                            <p class="yj-yp-tea-position">教授</p>
+                        </div>
+                        <a href="#" class="yj-yp-class-name">主题：泌尿与男性生殖系统</a>
+                        <div class="yj-yp-class-timebox">
+                            <p class="yj-yp-class-condition end">已经结束</p>
+                            <i class="f-icon f-f14" style="color: #999">&#xe619;</i>
+                            <p class="yj-yp-class-name-time">2016-09-05 19:00</p>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+        <div class="g-w20 f-fl">
+            <div class="yj-yp-search-input clearfix f-m5">
+                <div class="yj-yp-input-wrap f-l g-mw80">
+                    <input type="text" name="keyboard" value="输入搜索关键字" onBlur="if(this.value=='') this.value='输入搜索关键字';"
+                           onFocus="if(this.value=='输入搜索关键字') this.value='';"/>
+                </div>
+                <button type="submit" class="f-l f-icon">&#xe618;</button>
+                <a href="#"><p class="yj-yp-keyword">乳腺癌</p></a>
+                <a href="#"><p class="yj-yp-keyword">胃癌</p></a>
+                <a href="#"><p class="yj-yp-keyword">乳腺癌</p></a>
+                <a href="#"><p class="yj-yp-keyword">肺癌</p></a>
+                <a href="#"><p class="yj-yp-keyword">乳腺癌</p></a>
+            </div>
+            <div class="mj-hot-list">
+                <div class="mj-hot-list-title">热点关注</div>
+                <ul class="mj-hot-list-ul">
+                    <li><a href="#" class="f-textof"><i class="mj-hot-list-i">1</i>中国医学装备协会病理装备技术专业委员会第一届年会暨第五届长三角地区病理</a></li>
+                    <li><a href="#" class="f-textof"><i class="mj-hot-list-i">2</i>理资讯病理资讯病理资讯病病理</a></li>
+                    <li><a href="#" class="f-textof"><i class="mj-hot-list-i">3</i>山东省召开上消化道癌筛查及早诊早治内镜病理阅片会</a></li>
+                    <li><a href="#" class="f-textof"><i class="mj-hot-list-i">4</i>中国医学装备协会病理装备技术专业委员会第一届年会暨第五届长三角地区病理</a></li>
+                    <li><a href="#" class="f-textof"><i class="mj-hot-list-i">5</i>理资讯病理资讯病理资讯病病理</a></li>
+                    <li><a href="#" class="f-textof"><i class="mj-hot-list-i">6</i>山东省召开上消化道癌筛查及早诊早治内镜病理阅片会</a></li>
+                    <li><a href="#" class="f-textof"><i class="mj-hot-list-i">7</i>中国医学装备协会病理装备技术专业委员会第一届年会暨第五届长三角地区病理</a></li>
+                    <li><a href="#" class="f-textof"><i class="mj-hot-list-i">8</i>理资讯病理资讯病理资讯病病理</a></li>
+                </ul>
+            </div>
+        </div>
+    </div>
+</div>
+<!--列表内容-end-->
+<!-- footer-start -->
+<div class="footer">
+    <div class="footer-wrap width-wrapper">
+        <div class="footer-links-wrap i-b clearfix">
+            <img class="logo f-l mc-hide" src="http://www.lianxianyiliao.com/skin/blzx/img/logo-bottom.png">
+
+            <div class="about f-l">
+                <div class="title">关于连线医疗</div>
+                <ul class="about-link-list">
+                    <li class="i-b item-about-link">
+                        <a href="#">关于我们</a>
+                    </li>
+                    <li class="i-b item-about-link">
+                        <a href="#">加入我们</a>
+                    </li>
+                    <li class="i-b item-about-link">
+                        <a href="#">友情链接</a>
+                    </li>
+                    <li class="i-b item-about-link">
+                        <a href="#">版权声明</a>
+                    </li>
+                    <li class="i-b item-about-link">
+                        <a href="#">联系我们</a>
+                    </li>
+                    <li class="i-b item-about-link">
+                        <a href="#">新浪微博</a>
+                    </li>
+                </ul>
+            </div>
+            <div class="f-l relative">
+                <a class="cooperate" href="#">医院合作</a>
+                <a class="customer-service" href="#">客服中心</a>
+            </div>
+        </div>
+        <img src="http://www.lianxianyiliao.com/skin/blzx/img/qrcode.jpg" class="i-b code">
+
+        <div class="i-b tip">微信扫一扫</div>
+    </div>
+    <div class="statement t-c">
+        版权所有 © 广州连线医疗科技有限公司 粤ICP备16017624号-1 电话: 020-29049396
+    </div>
+</div>
+<!-- JiaThis Button BEGIN -->
+<script type="text/javascript" src="http://v3.jiathis.com/code/jiathis_r.js?move=0" charset="utf-8"></script>
+<!-- JiaThis Button END -->
+
+</body>
+</html>

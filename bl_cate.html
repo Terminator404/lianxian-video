@@ -1,0 +1,298 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="description" content="">
+    <meta name="keywords" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>病理资讯-连线医疗</title>
+    <meta name="renderer" content="webkit">
+    <script>(function () {
+        function a() {
+            return /(iPhone|iPad|iPod|iOS)/i.test(navigator.userAgent) ? !0 : /(Android)/i.test(navigator.userAgent) ? !0 : !1
+        }
+
+        var d = document.getElementsByTagName("html")[0];
+        var e;
+        if (a()) {
+            window.isMobile = 1;
+            e = "MC"
+        } else {
+            window.isMobile = 0;
+            e = "PC"
+        }
+        d.className = d.className ? d.className + " " + e : e;
+        var b = d.className;
+
+        function c(f) {
+            var h = "";
+            var g = document.documentElement.clientWidth;
+            1600 > g && (h += " lt1600");
+            1400 > g && (h += " lt1400");
+            1200 > g && (h += " lt1200");
+            1000 > g && (h += " lt1000");
+            960 > g && (h += " lt960");
+            640 > g && (h += " lt640");
+            500 > g && (h += " lt500");
+            400 > g && (h += " lt400");
+            1600 < g && (h += " gt1600");
+            1400 < g && (h += " gt1400");
+            1200 < g && (h += " gt1200");
+            1000 < g && (h += " gt1000");
+            960 < g && (h += " gt960");
+            640 < g && (h += " gt640");
+            500 < g && (h += " gt500");
+            400 < g && (h += " gt400");
+            f.className = b + h
+        }
+
+        c(d);
+        window.onresize = function (f) {
+            c(d)
+        }
+    })();</script>
+    <!--让IE9以下浏览器支持html5标签 -->
+    <!--[if lt IE 9]>
+    <script> (function () {
+        if (!/*@cc_on!@*/0)return;
+        var e = "abbr,article,aside,audio,canvas,datalist,details,dialog,eventsource,figure,footer,header,hgroup,mark,menu,meter,nav,output,progress,section,time,video".split(','), i = e.length;
+        while (i--) {
+            document.createElement(e[i])
+        }
+    })() </script>
+    <![endif]-->
+    <link rel="stylesheet" href="css/base.min.css">
+    <link rel="stylesheet" href="css/common.css">
+    <link rel="stylesheet" href="css/list.css">
+</head>
+<body>
+
+<!-- header-start -->
+<div class="header">
+    <!-- top-start -->
+    <div class="top mc-hide">
+        <div class="wrapper clearfix width-wrapper">
+            <div class="top-left f-l">
+                <a href="http://www.wiredmed.com/" target="_blank"><i class="f-icon">&#xe600;</i> 连线医疗</a>
+
+                <div class="phone i-b">
+                    <i class="f-icon">&#xe60c;</i>
+                    <span class="i-b">客服热线：020-29049396</span>
+                </div>
+            </div>
+
+        </div>
+    </div>
+    <!-- top-end -->
+
+    <!-- search-start -->
+    <div class="search-wrapper clearfix width-wrapper">
+        <div class="logo f-l i-b g-mw80">
+            <a href="http://www.lianxianyiliao.com/">
+                <img src="http://www.lianxianyiliao.com/skin/blzx/img/logo.png">
+            </a>
+        </div>
+        <div class="search f-r i-b mc-hide">
+            <div class="search-input clearfix f-m5">
+                <form name="search_js2" method="post" action="http://www.lianxianyiliao.com/core/search/index.php">
+                    <input type="hidden" name="show" value="title">
+                    <input type="hidden" name="classid" value="9"/>
+
+                    <div class="input-wrap f-l g-mw80">
+                        <input type="text" name="keyboard" value="输入搜索关键字"
+                               onBlur="if(this.value=='') this.value='输入搜索关键字';"
+                               onFocus="if(this.value=='输入搜索关键字') this.value='';"/>
+                    </div>
+                    <button type="submit" class="f-l g-mw20">搜索</button>
+                </form>
+
+            </div>
+            <div class="hot-keyword">
+                <span class="title">热门搜索：</span><a href='http://www.lianxianyiliao.com/core/search/result/?searchid=1'
+                                                   target=_blank>国家卫生计生委</a>&nbsp;<a
+                    href='http://www.lianxianyiliao.com/core/search/result/?searchid=2' target=_blank>临床诊疗</a>&nbsp;<a
+                    href='http://www.lianxianyiliao.com/core/search/result/?searchid=3' target=_blank>质瘤诊断治疗</a>&nbsp;<a
+                    href='http://www.lianxianyiliao.com/core/search/result/?searchid=4' target=_blank>病理质量控制</a>&nbsp;<a
+                    href='http://www.lianxianyiliao.com/core/search/result/?searchid=5' target=_blank>陕西</a>&nbsp;<a
+                    href='http://www.lianxianyiliao.com/core/search/result/?searchid=6' target=_blank>胃癌</a>&nbsp;
+            </div>
+        </div>
+    </div>
+    <!-- search-end -->
+
+</div>
+<!-- header-end -->
+
+<!-- nav-start -->
+<div class="nav width-wrapper mc-hide">
+    <ul>
+        <li class="active">
+            <a href="http://www.lianxianyiliao.com/">首页</a>
+        </li>
+        <li>
+            <a href="http://www.lianxianyiliao.com/Online/Information/">病理资讯</a>
+        </li>
+        <li>
+            <a href="http://www.lianxianyiliao.com/Online/Learn/">病理学习</a>
+        </li>
+        <!-- <li>
+           <a href="#">阅片会</a>
+         </li>
+         <li>
+           <a href="#">模拟诊断</a>
+         </li>-->
+        <li>
+            <a href="http://cloud.wiredmed.com/workstation/index" target="_blank">连线云病理会诊平台</a>
+        </li>
+    </ul>
+</div>
+<!-- nav-end -->
+<!-- Hot-start -->
+<div class="class-top">
+    <div class="f-cb f-bc width-wrapper">
+        <div class="g-w30 g-mw g-fl">
+            <div class="list-title">
+                <h1>阅片课堂</h1>
+
+                <p><a href="http://www.lianxianyiliao.com/">首页</a>&nbsp;>&nbsp;<a
+                        href="http://www.lianxianyiliao.com/Online/">病理在线</a>&nbsp;>&nbsp;<a
+                        href="http://www.lianxianyiliao.com/Online/Information/">病理资讯</a></p>
+            </div>
+        </div>
+        <div class="g-w70 g-mw g-fl">
+            <div class="list-hot">
+                <div class="f-cb">
+                    <div class="yj-yp-list-hot">
+                        <div class="yj-yp-img" style="background-image: url(img/bl.jpg)"></div>
+                        <span class="tag f-bgc-warning f-pa f-tl">HOT</span>
+                        <div class="yj-yp-info">
+                            <div class="yj-yp-tea-img" style="background-image: url(img/doc.jpg)"></div>
+                            <div class="yj-yp-tea-info">
+                                <p class="yj-yp-tea-name" style="color: #ffe1b6">廖松林</p>
+                                <p class="yj-yp-tea-from">北京大学医学部病理系/北医三院病理科</p>
+                                <p class="yj-yp-tea-position">教授</p>
+                            </div>
+                            <a href="#" class="yj-yp-class-name">主题：泌尿与男性生殖系统</a>
+                            <div class="yj-yp-class-timebox">
+                                <p class="yj-yp-class-condition start">即将开始</p>
+                                <i class="f-icon f-f14" style="color: #fff">&#xe619;</i>
+                                <p class="yj-yp-class-name-time">2016-09-05 19:00</p>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- Hot-end -->
+
+<!-- cate-start -->
+<div class="yj-cate-container">
+    <div class="width-wrapper f-cb f-bc">
+        <div class="mj-classList-title f-pr f-mt10">
+            <h2 class="mj-classList-title-h2">病理分类<span class="mj-classList-title-p">LIST</span></h2>
+            <div class="f-pa f-tr mj-classList-title-right"><a href="javascript:history.go(-1);" class="f-btn">返回</a></div>
+        </div>
+
+        <div class="yj-cate-list">
+            <ul>
+                <li class="g-w25"><a href="#">All/所有</a></li>
+                <li class="g-w25"><a href="#">Breast/乳腺</a></li>
+                <li class="g-w25"><a href="#">Bone/骨</a></li>
+                <li class="g-w25"><a href="#">BloodAndBoneMarrow/血液与骨髓</a></li>
+                <li class="g-w25"><a href="#">Breast/乳腺</a></li>
+                <li class="g-w25"><a href="#">Bone/骨</a></li>
+                <li class="g-w25"><a href="#">BloodAndBoneMarrow/血液与骨髓</a></li>
+                <li class="g-w25"><a href="#">Breast/乳腺</a></li>
+                <li class="g-w25"><a href="#">Bone/骨</a></li>
+                <li class="g-w25"><a href="#">BloodAndBoneMarrow/血液与骨髓</a></li>
+                <li class="g-w25"><a href="#">Breast/乳腺</a></li>
+                <li class="g-w25"><a href="#">Bone/骨</a></li>
+                <li class="g-w25"><a href="#">BloodAndBoneMarrow/血液与骨髓</a></li>
+                <li class="g-w25"><a href="#">Breast/乳腺</a></li>
+                <li class="g-w25"><a href="#">Bone/骨</a></li>
+                <li class="g-w25"><a href="#">BloodAndBoneMarrow/血液与骨髓</a></li>
+                <li class="g-w25"><a href="#">Breast/乳腺</a></li>
+                <li class="g-w25"><a href="#">Bone/骨</a></li>
+                <li class="g-w25"><a href="#">BloodAndBoneMarrow/血液与骨髓</a></li>
+            </ul>
+        </div>
+        <div class="yj-yp-search-input clearfix f-m5">
+            <div class="yj-yp-input-wrap f-l g-mw80">
+                <input type="text" name="keyboard" value="输入搜索关键字" onBlur="if(this.value=='') this.value='输入搜索关键字';" onFocus="if(this.value=='输入搜索关键字') this.value='';"/>
+            </div>
+            <button type="submit" class="f-l f-icon">&#xe618;</button>
+        </div>
+
+        <div class="yj-cate-res">
+            <ul>
+                <li class="f-p5">
+                        <div class="yj-cate-img" style="background-image: url(img/bl.jpg)"></div>
+                        <div class="yj-cate-txt">
+                            <p class="yj-cate-number">病理编号20160424019</p>
+                            <p class="yj-cate-location">乳腺</p>
+                            <p class="yj-cate-brief">女，63岁，右乳肿块两年余。</p>
+                            <div class="yj-cate-opr">
+                                <a class="start" href="#">模拟练习</a>
+                                <a class="end" href="#">浏览</a>
+                                <a class="end" href="#">收藏</a>
+                            </div>
+                        </div>
+                </li>
+
+                <li class="f-p5">
+                    <div class="yj-cate-img" style="background-image: url(img/bl.jpg)"></div>
+                    <div class="yj-cate-txt">
+                        <p class="yj-cate-number">病理编号20160424019</p>
+                        <p class="yj-cate-location">乳腺</p>
+                        <p class="yj-cate-brief">女，63岁，右乳肿块两年余。</p>
+                        <div class="yj-cate-opr">
+                            <a class="start" href="#">模拟练习</a>
+                            <a class="end" href="#">浏览</a>
+                            <a class="end" href="#">收藏</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="f-p5">
+                    <div class="yj-cate-img" style="background-image: url(img/bl.jpg)"></div>
+                    <div class="yj-cate-txt">
+                        <p class="yj-cate-number">病理编号20160424019</p>
+                        <p class="yj-cate-location">乳腺</p>
+                        <p class="yj-cate-brief">女，63岁，右乳肿块两年余。</p>
+                        <div class="yj-cate-opr">
+                            <a class="start" href="#">模拟练习</a>
+                            <a class="end" href="#">浏览</a>
+                            <a class="end" href="#">收藏</a>
+                        </div>
+                    </div>
+                </li>
+
+                <li class="f-p5">
+                    <div class="yj-cate-img" style="background-image: url(img/bl.jpg)"></div>
+                    <div class="yj-cate-txt">
+                        <p class="yj-cate-number">病理编号20160424019</p>
+                        <p class="yj-cate-location">乳腺</p>
+                        <p class="yj-cate-brief">女，63岁，右乳肿块两年余。</p>
+                        <div class="yj-cate-opr">
+                            <a class="start" href="#">模拟练习</a>
+                            <a class="end" href="#">浏览</a>
+                            <a class="end" href="#">收藏</a>
+                        </div>
+                    </div>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+
+</div>
+<!-- cate-end -->
+
+
+</body>
+</html>
