@@ -398,7 +398,7 @@ a.mj-mcmenu-title{display:block;text-decoration:none}
 .yj-cate-list li{display: inline-block;padding: 2px 0px ;margin: 0px;font-size: 14px;text-align: left;position: relative}
 .yj-cate-list a{font-size: 14px;color: #666}
 .yj-cate-list a:hover{text-decoration: underline}
-.yj-cate-res{height: 500px}
+.yj-cate-res{}
 .yj-cate-res ul{padding: 0px;margin: 0px;font-size:0;}
 .yj-cate-res li{display: inline-block;height: 140px;width:360px;border: 1px solid #ddd;margin: 14px;position: relative}
 .yj-cate-res a{display: block;}
@@ -450,8 +450,13 @@ a.mj-mcmenu-title{display:block;text-decoration:none}
 .mj-slideBox .swiper-pagination-switch{ display: inline-block; margin-right:2px;  width:15px; height:15px; line-height:14px; text-align:center; cursor:pointer; }
 .mj-slideBox-p2{left: 5px;text-align: center;}
 
-
-
+/*·ÖÒ³-start*/
+.pager{text-align:center;line-height:30px;font-size:0;padding-bottom:10px}
+.pager a,.pager b{text-decoration:none;color:#444;display:inline-block;border:1px solid #ddd;font-size:14px;padding-left:10px;padding-right:10px;margin-left:2px;margin-right:2px}
+.pager b{background-color:#4bb1e5;color:#fff;border-color:#4bb1e5}
+.pager a:hover{background-color:#f1f1f1}
+.pager a b{background-color:#fff;border:none;color:#444}
+/*·ÖÒ³-end*/
 
 
 
